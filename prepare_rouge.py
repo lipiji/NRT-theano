@@ -5,7 +5,7 @@ from commons import *
 import argparse
 
 # config file for ROUGE
-ROUGE_ROOT = "/misc/projdata12/info_fil/pjli/workspace/recsys_summ/result/"
+ROUGE_ROOT = "./result/"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("data", help="which dataset will be processed")
